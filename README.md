@@ -47,7 +47,7 @@ then we have the following:
 
 To evaluate <img src="/tex/04efca0a1314e6cb94a0c00ce831ab39.svg?invert_in_darkmode&sanitize=true" align=middle width=67.24305059999999pt height=24.7161288pt/> we write <img src="/tex/9cd443bcae4fe715be6503ee1cfb82be.svg?invert_in_darkmode&sanitize=true" align=middle width=71.33537234999999pt height=24.7161288pt/>, and so <img src="/tex/7fb4d2a3fb96dd72a84b2326def7678e.svg?invert_in_darkmode&sanitize=true" align=middle width=174.80231339999997pt height=24.7161288pt/>.
 
-But now <img src="/tex/542a2c8e90cf8b8a4522d164e243006c.svg?invert_in_darkmode&sanitize=true" align=middle width=84.59458259999998pt height=24.7161288pt/>q(\theta' \rightarrow \theta)<img src="/tex/f146b9205a179d2b3b2453013c2f71e4.svg?invert_in_darkmode&sanitize=true" align=middle width=55.28178314999999pt height=22.831056599999986pt/>f_Z(z) \ne f_Z(-z)<img src="/tex/6bd65d843a1ae6616cdd9eccdcc51086.svg?invert_in_darkmode&sanitize=true" align=middle width=39.20297534999999pt height=22.831056599999986pt/>f_Z()$ is not centered at 0.
+But now <img src="/tex/3da7638af3d1bc9960133de1cf0d478a.svg?invert_in_darkmode&sanitize=true" align=middle width=156.403731pt height=24.7161288pt/> because <img src="/tex/c2560a57f0f6ff735dc084abdb249a3e.svg?invert_in_darkmode&sanitize=true" align=middle width=114.27409125pt height=24.65753399999998pt/> when <img src="/tex/f050a9b21715c852da6ac528efe4bd6d.svg?invert_in_darkmode&sanitize=true" align=middle width=31.417894199999992pt height=24.65753399999998pt/> is not centered at 0.
 
 
 
