@@ -1,7 +1,7 @@
 ##  Examples of calculating Q() in the MH-MCMC HAstings Ratio
 
 In this file I will walk you through a few examples of how to calculate the proposal 
-(transition) kernel term $q(\theta \rightarrow \theta') term in the Hastig's Raio calculation 
+(transition) kernel term $q(\theta \rightarrow \theta')$ term in the Hasting's Ratio calculation 
 of Metropolis-Hastings MCMC.
 
 First of all, a reminder of the Hasting's Ratio itself. It is defined as:
@@ -11,7 +11,7 @@ $$.  h = min \left\{ 1, \frac{f(\theta')q(\theta' \rightarrow \theta}{f(\theta)q
 
 
 Our context is often Bayesian, in which case $f$ is the posterior distribution $f(\theta \mid D)$, 
-for some dataset $D$ and model parameter(s) $\theta$, and the Hastings' Ratio looks like this:
+for some dataset $D$ and model parameter(s) $\theta$, and then the Hastings' Ratio looks like this:
 
 $$.  h = min \left\{ 1, \frac{f(\theta')\pi(\theta')q(\theta' \rightarrow \theta}{f(\theta)\pi(\theta)q(\theta \rightarrow \theta')} 
 \right\.  $$
