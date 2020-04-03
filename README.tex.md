@@ -51,5 +51,15 @@ To evaluate $q(\theta' \rightarrow \theta)$ we write $\theta=\theta'-z$, and so 
 
 But now $q(\theta \rightarrow \theta') \ne q(\theta' \rightarrow \theta)$ because $f_Z(z) \ne f_Z(-z)$ when $f_Z()$ is not centered at 0.
 
+### Example 3
+
+So now let's think about an independence sampler, in which rather than proposing $\theta'$ as a perturbation of the existing $\theta$, as in the above examples, we instead propose $\theta'$ as a sample from an exponential random variable. (So the proposed new value is indpendent of the existing value contrary to Examples 1 and 2. It doesn't have to be exponential, we could use any distribution here.)
+
+So now $q(\theta \rightarrow \theta')=expo(\theta')$, the prob. density odf proposing the new value $\theta'$.
+
+And $q(\theta' \rightarrow \theta)=expo(\theta)$, the prob. density of proposing the new value $\theta'$.
+
+Typically now there is no cross-cancelation in the Hastings Ratio unless we choose $f()$ to be the same density as the prio $\pi()$.
+
 
 
