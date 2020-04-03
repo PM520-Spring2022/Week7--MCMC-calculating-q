@@ -49,5 +49,15 @@ To evaluate <img src="/tex/04efca0a1314e6cb94a0c00ce831ab39.svg?invert_in_darkmo
 
 But now <img src="/tex/3da7638af3d1bc9960133de1cf0d478a.svg?invert_in_darkmode&sanitize=true" align=middle width=156.403731pt height=24.7161288pt/> because <img src="/tex/c2560a57f0f6ff735dc084abdb249a3e.svg?invert_in_darkmode&sanitize=true" align=middle width=114.27409125pt height=24.65753399999998pt/> when <img src="/tex/f050a9b21715c852da6ac528efe4bd6d.svg?invert_in_darkmode&sanitize=true" align=middle width=31.417894199999992pt height=24.65753399999998pt/> is not centered at 0.
 
+### Example 3
+
+So now let's think about an independence sampler, in which rather than proposing <img src="/tex/a0636197f9b37d9928c1c149816cd7dc.svg?invert_in_darkmode&sanitize=true" align=middle width=11.96348834999999pt height=24.7161288pt/> as a perturbation of the existing <img src="/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/>, as in the above examples, we instead propose <img src="/tex/a0636197f9b37d9928c1c149816cd7dc.svg?invert_in_darkmode&sanitize=true" align=middle width=11.96348834999999pt height=24.7161288pt/> as a sample from an exponential random variable. (So the proposed new value is indpendent of the existing value contrary to Examples 1 and 2. It doesn't have to be exponential, we could use any distribution here.)
+
+So now <img src="/tex/ee57210172833d23e1f90ef442b02096.svg?invert_in_darkmode&sanitize=true" align=middle width=148.0192593pt height=24.7161288pt/>, the prob. density odf proposing the new value <img src="/tex/a0636197f9b37d9928c1c149816cd7dc.svg?invert_in_darkmode&sanitize=true" align=middle width=11.96348834999999pt height=24.7161288pt/>.
+
+And <img src="/tex/b9128b16b27a786bf1627827a6fc20cc.svg?invert_in_darkmode&sanitize=true" align=middle width=143.40738555pt height=24.7161288pt/>, the prob. density of proposing the new value <img src="/tex/a0636197f9b37d9928c1c149816cd7dc.svg?invert_in_darkmode&sanitize=true" align=middle width=11.96348834999999pt height=24.7161288pt/>.
+
+Typically now there is no cross-cancelation in the Hastings Ratio unless we choose <img src="/tex/5f954f0890e759b145da7cc998a0b4a0.svg?invert_in_darkmode&sanitize=true" align=middle width=22.602846749999987pt height=24.65753399999998pt/> to be the same density as the prio <img src="/tex/43c162e821c87ec6b7eec394a26d7c3a.svg?invert_in_darkmode&sanitize=true" align=middle width=22.74552059999999pt height=24.65753399999998pt/>.
+
 
 
