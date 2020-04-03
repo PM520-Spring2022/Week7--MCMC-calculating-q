@@ -6,22 +6,22 @@ of Metropolis-Hastings MCMC.
 
 First of all, a reminder of the Hasting's Ratio itself. It is defined as:
 
-$$.  h = min \left\{ 1, \frac{f(\theta')q(\theta' \rightarrow \theta}{f(\theta)q(\theta \rightarrow \theta')} 
-\right\.  $$
+$$  h = min \left\{ 1, \frac{f(\theta')q(\theta' \rightarrow \theta}{f(\theta)q(\theta \rightarrow \theta')} 
+\right\}  $$
 
 
 Our context is often Bayesian, in which case $f$ is the posterior distribution $f(\theta \mid D)$, 
 for some dataset $D$ and model parameter(s) $\theta$, and then the Hastings' Ratio looks like this:
 
-$$.  h = min \left\{ 1, \frac{f(\theta')\pi(\theta')q(\theta' \rightarrow \theta}{f(\theta)\pi(\theta)q(\theta \rightarrow \theta')} 
-\right\.  $$
+$$  h = min \left\{ 1, \frac{f(\theta')\pi(\theta')q(\theta' \rightarrow \theta}{f(\theta)\pi(\theta)q(\theta \rightarrow \theta')} 
+\right\}  $$
 
 where $\pi()$ is the prior for $\theta$.
 
 The key thing to remember is that the $q(\theta \rightarrow \theta')$ term is just the probability (or probability density 
 if $\theta$ is continuous) of **proposing** a move from $\theta$ to $\theta'$.
 
-In the exmaples we will assume that, as is most often the case, $\theta$ is continuous rather than discrete. 
+In the examples we will assume that, as is most often the case, $\theta$ is continuous rather than discrete. 
 But discrete examples work in a similar way.
 
 ### Example 1
