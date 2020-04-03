@@ -6,20 +6,20 @@ of Metropolis-Hastings MCMC.
 
 First of all, a reminder of the Hasting's Ratio itself. It is defined as:
 
-<p align="center"><img src="/tex/93dd3facc0582ea221f5354df95b412b.svg?invert_in_darkmode&sanitize=true" align=middle width=213.46253444999996pt height=39.452455349999994pt/></p>
+<p align="center"><img src="/tex/4fdf95a16d2d8c091386b81c439177ae.svg?invert_in_darkmode&sanitize=true" align=middle width=206.23885425pt height=39.452455349999994pt/></p>
 
 
 Our context is often Bayesian, in which case <img src="/tex/190083ef7a1625fbc75f243cffb9c96d.svg?invert_in_darkmode&sanitize=true" align=middle width=9.81741584999999pt height=22.831056599999986pt/> is the posterior distribution <img src="/tex/f0774b86c352937adf9ce71d16a3fe70.svg?invert_in_darkmode&sanitize=true" align=middle width=58.54102649999999pt height=24.65753399999998pt/>, 
 for some dataset <img src="/tex/78ec2b7008296ce0561cf83393cb746d.svg?invert_in_darkmode&sanitize=true" align=middle width=14.06623184999999pt height=22.465723500000017pt/> and model parameter(s) <img src="/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/>, and then the Hastings' Ratio looks like this:
 
-<p align="center"><img src="/tex/d8dcc9d3b5de33e6f1a66a7fed129b6d.svg?invert_in_darkmode&sanitize=true" align=middle width=247.2126096pt height=39.452455349999994pt/></p>
+<p align="center"><img src="/tex/ef281fd76fa3303d1d03bfd490d29eb7.svg?invert_in_darkmode&sanitize=true" align=middle width=239.9889294pt height=39.452455349999994pt/></p>
 
 where <img src="/tex/43c162e821c87ec6b7eec394a26d7c3a.svg?invert_in_darkmode&sanitize=true" align=middle width=22.74552059999999pt height=24.65753399999998pt/> is the prior for <img src="/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/>.
 
 The key thing to remember is that the <img src="/tex/8e195e1865fe4a5007982ccd72eee6ec.svg?invert_in_darkmode&sanitize=true" align=middle width=67.24305059999999pt height=24.7161288pt/> term is just the probability (or probability density 
 if <img src="/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/> is continuous) of **proposing** a move from <img src="/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/> to <img src="/tex/a0636197f9b37d9928c1c149816cd7dc.svg?invert_in_darkmode&sanitize=true" align=middle width=11.96348834999999pt height=24.7161288pt/>.
 
-In the exmaples we will assume that, as is most often the case, <img src="/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/> is continuous rather than discrete. 
+In the examples we will assume that, as is most often the case, <img src="/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/> is continuous rather than discrete. 
 But discrete examples work in a similar way.
 
 ### Example 1
