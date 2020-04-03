@@ -49,7 +49,7 @@ then we have the following:
 
 To evaluate $q(\theta' \rightarrow \theta)$ we write $\theta=\theta'-z$, and so $q(\theta' \rightarrow \theta'-z)=f_Z(-z)$.
 
-But now $q(\theta \rightarrow \theta') \ne $q(\theta' \rightarrow \theta)$ because $f_Z(z) \ne f_Z(-z)$ when $f_Z()$ is not centered at 0.
+But now $q(\theta \rightarrow \theta') \ne q(\theta' \rightarrow \theta)$ because $f_Z(z) \ne f_Z(-z)$ when $f_Z()$ is not centered at 0.
 
 
 
