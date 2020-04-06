@@ -12,7 +12,7 @@ First of all, a reminder of the Hasting's Ratio itself. It is defined as:
 Our context is often Bayesian, in which case <img src="/tex/190083ef7a1625fbc75f243cffb9c96d.svg?invert_in_darkmode&sanitize=true" align=middle width=9.81741584999999pt height=22.831056599999986pt/> is the posterior distribution <img src="/tex/781942ca7fefedc3cd988bcdb885513d.svg?invert_in_darkmode&sanitize=true" align=middle width=169.91873085pt height=24.65753399999998pt/>, 
 for some dataset <img src="/tex/78ec2b7008296ce0561cf83393cb746d.svg?invert_in_darkmode&sanitize=true" align=middle width=14.06623184999999pt height=22.465723500000017pt/> and model parameter(s) <img src="/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/>, and then the Hastings' Ratio looks like this:
 
-<p align="center"><img src="/tex/109802111693b1825a22dc86233f43fc.svg?invert_in_darkmode&sanitize=true" align=middle width=274.1462757pt height=39.452455349999994pt/></p>
+<p align="center"><img src="/tex/0197584311faa07d0df9e7316d0c1e6d.svg?invert_in_darkmode&sanitize=true" align=middle width=274.1462757pt height=39.452455349999994pt/></p>
 
 where <img src="/tex/43c162e821c87ec6b7eec394a26d7c3a.svg?invert_in_darkmode&sanitize=true" align=middle width=22.74552059999999pt height=24.65753399999998pt/> is the prior for <img src="/tex/27e556cf3caa0673ac49a8f0de3c73ca.svg?invert_in_darkmode&sanitize=true" align=middle width=8.17352744999999pt height=22.831056599999986pt/>.
 
