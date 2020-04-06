@@ -10,10 +10,10 @@ $$  h = min \left\{ 1, \frac{f(\theta')q(\theta' \rightarrow \theta)}{f(\theta)q
 \right\}  $$
 
 
-Our context is often Bayesian, in which case $f$ is the posterior distribution $f(\theta \mid D)$, 
+Our context is often Bayesian, in which case $f$ is the posterior distribution $f(\theta \mid D) \propto f(D \mid \theta)\pi(\theta)$, 
 for some dataset $D$ and model parameter(s) $\theta$, and then the Hastings' Ratio looks like this:
 
-$$  h = min \left\{ 1, \frac{f(\theta')\pi(\theta')q(\theta' \rightarrow \theta)}{f(\theta)\pi(\theta)q(\theta \rightarrow \theta')} 
+$$  h = min \left\{ 1, \frac{f(\theta' \mid D)\pi(\theta')q(\theta' \rightarrow \theta)}{f(\theta \mid D)\pi(\theta)q(\theta \rightarrow \theta')} 
 \right\}  $$
 
 where $\pi()$ is the prior for $\theta$.
