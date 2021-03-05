@@ -65,4 +65,4 @@ Typically, now, there is no cross-cancelation in the Hastings Ratio, unless we c
 
 ### Note on Latex
 
-Note that this document was written to exploit an installed package called TeXify. It provides a way of writing math usoing LaTeX on Github. If you install that package it looks for files with a .tex.md extension. Whenever it finds one, it compiles any LaTeX code in that file and creates a rendered version with a .md extension. That's how this README.md file wass created. 
+Note that this document was written to exploit an installed package called TeXify. It provides a way of writing math using LaTeX on Github. If you install that package it looks for files with a .tex.md extension. Whenever it finds one, it compiles any LaTeX code in that file and creates a rendered version with a .md extension. That's how this README.md file wass created. 
