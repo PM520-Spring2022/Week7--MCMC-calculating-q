@@ -1,4 +1,4 @@
-##  Examples of calculating Q() in the MH-MCMC Hastings Ratio
+##  Examples of calculating q() in the MH-MCMC Hastings Ratio
 
 In this file I will walk you through a few examples of how to calculate the proposal 
 (transition) kernel term $q(\theta \rightarrow \theta')$ term in the Hasting's Ratio calculation 
