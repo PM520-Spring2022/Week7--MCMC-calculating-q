@@ -41,7 +41,7 @@ that is symmetric around 0. (Those terms will cancel out for any such rv, regard
 ### Example 2
 
 In this example, we suppose that we propose a new value $\theta'$ by taking the existing value $\theta$ and 
-adding a normal random variable with non-=zero mean. So $Z \sim Normal(c,\sigma^2)$. Suppose $Z$ took the value $Z=z$, 
+adding a normal random variable with non-zero mean. So $Z \sim Normal(c,\sigma^2)$. Suppose $Z$ took the value $Z=z$, 
 then we have the following:
 
 * $\theta'=\theta+z$.
@@ -53,7 +53,7 @@ But now $q(\theta \rightarrow \theta') \ne q(\theta' \rightarrow \theta)$ becaus
 
 ### Example 3
 
-So now let's think about an independence sampler, in which rather than proposing $\theta'$ as a perturbation of the existing $\theta$, as in the above examples, we instead propose $\theta'$ as a sample from an exponential random variable. (So the proposed new value is indpendent of the existing value, contrary to Examples 1 and 2. It doesn't have to be exponential, we could use any distribution here.)
+So now let's think about an independence sampler, in which rather than proposing $\theta'$ as a perturbation of the existing $\theta$, as in the above examples, we instead propose $\theta'$ as a sample from, for example, an exponential random variable. (So the proposed new value is indpendent of the existing value, contrary to Examples 1 and 2. It doesn't have to be exponential, we could use any distribution here, so long as we use the same dist. each iteration)
 
 So now $q(\theta \rightarrow \theta')=expo(\theta')$, the prob. density of proposing the new value $\theta'$.
 
