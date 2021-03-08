@@ -27,7 +27,7 @@ But discrete examples work in a similar way.
 ### Example 1
 
 In this example, we suppose that we propose a new value $\theta'$ by taking the existing value $\theta$ and 
-adding a mean zero normal random variable $Z \sim Normal(0,\sigma^2)$. Suppose $Z$ took the value $Z=z$, then we have
+adding a mean normal random variable $Z \sim Normal(0,\sigma^2)$. Suppose $Z$ took the value $Z=z$, then we have
 the following:
 * $\theta'=\theta+z$.
 * So $q(\theta \rightarrow \theta')=q(\theta \rightarrow \theta+z)=f_Z(z)$, where $f_Z$ is the density function of a $Normal(0,\sigma^2)$ rv.
@@ -53,7 +53,7 @@ But now $q(\theta \rightarrow \theta') \ne q(\theta' \rightarrow \theta)$ becaus
 
 ### Example 3
 
-So now let's think about an independence sampler, in which rather than proposing $\theta'$ as a perturbation of the existing $\theta$, as in the above examples, we instead propose $\theta'$ as a sample from, for example, an exponential random variable. (So the proposed new value is indpendent of the existing value, contrary to Examples 1 and 2. It doesn't have to be exponential, we could use any distribution here, so long as we use the same dist. each iteration)
+So now let's think about an independence sampler, in which rather than proposing $\theta'$ as a perturbation of the existing $\theta$, as in the above examples, we instead propose $\theta'$ as a sample from, for example, an exponential random variable. (So the proposed new value is independent of the existing value, contrary to Examples 1 and 2. It doesn't have to be exponential, we could use any distribution here, so long as we use the same dist. each iteration)
 
 So now $q(\theta \rightarrow \theta')=expo(\theta')$, the prob. density of proposing the new value $\theta'$.
 
