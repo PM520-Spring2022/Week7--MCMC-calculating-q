@@ -4,7 +4,7 @@ In this file I will walk you through a few examples of how to calculate the prop
 (transition) kernel term $q(\theta \rightarrow \theta')$ term in the Hasting's Ratio calculation 
 of Metropolis-Hastings MCMC.
 
-First of all, a reminder of the Hasting's Ratio itself. It is defined as:
+First of all, a reminder of the Hastings' Ratio itself. It is defined as:
 
 $$  h = min \left\{ 1, \frac{f(\theta')q(\theta' \rightarrow \theta)}{f(\theta)q(\theta \rightarrow \theta')} 
 \right\}  $$
@@ -35,7 +35,7 @@ the following:
 To evaluate $q(\theta' \rightarrow \theta)$ we write $\theta=\theta'-z$, and so $q(\theta' \rightarrow \theta'-z)=f_Z(-z)$.
 
 Because $Z~\sim Normal(0,\sigma^2)$ is symmetric around 0, we have that $q(\theta \rightarrow \theta')=q(\theta' \rightarrow \theta)$, 
-and so those terms will cancel out in the Hastings Ratio. This is one of the major plusses of using a perturbation $Z$ 
+and so those terms will cancel out in the Hastings' Ratio. This is one of the major plusses of using a perturbation $Z$ 
 that is symmetric around 0. (Those terms will cancel out for any such rv, regardless of its exact distribution.)
 
 ### Example 2
